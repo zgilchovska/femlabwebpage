@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>ourmission.knit</title>
+
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Feminist Wonder Lab</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="index.html">Who we are</a>
+</li>
+<li>
+  <a href="ourmission.html">Our mission</a>
+</li>
+<li>
+  <a href="projects.html">Projects and resources</a>
+</li>
+<li>
+  <a href="partners.html">Partners</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<div id="our-mission" class="section level1" align="center">
+<h1><strong>Our mission</strong></h1>
+</div>
+<p> </p>
+<div align="justify">
+<p>Our mission is to promote equity and justice for all people in the
+academy. The academy privileges particular identities based on gender,
+race, class and ability, to name a few. We see that there is a long way
+to go in improving the research, teaching, and working conditions for
+systemically underprivileged groups in academic institutions. We believe
+that changes are on the way and are excited to be part of these changes.
+Our work currently revolves around academic publications and conference
+presentations, but we are looking for diverse strategies to expand into
+teaching, consulting, and more practice-oriented activities. This
+journey begins with ourselves, and thus one of the main missions of this
+group has been to learn from each other’s diverse views and experiences,
+and become better academics and feminists.</p>
+</div>
+<p> </p>
+<p> </p>
+<div id="feminist-wonder-lab-code-of-conduct" class="section level1"
+align="center">
+<h1><strong>Feminist Wonder Lab Code of Conduct</strong></h1>
+</div>
+<p> </p>
+<div align="justify">
+<div id="diversity-statement" class="section level2">
+<h2><strong>Diversity Statement</strong></h2>
+<p>We are a voluntary-based international educational and research
+community that aims to create, develop and foster feminist practices in
+science. We are open, inclusive and diverse, and we function and abide
+by the principle of open, reproducible and transparent scholarship. We
+welcome new members from any background, as long as they support our
+principles, but we particularly strive to amplify underrepresented
+voices in science and research.  </p>
+</div>
+<div id="pledge-and-aims-of-this-document" class="section level2">
+<h2><strong>Pledge and Aims of This Document</strong></h2>
+<p>This code of conduct outlines the founding principles of the Feminist
+Wonder Lab. It is established to serve as a behaviour and attitude
+guideline, applicable throughout each and every of Feminist Wonder Lab’s
+projects and interactions, thus all members should abide by it. Every
+member should be aware of the rules and principles in this code of
+conduct, in order to be able to follow them.  </p>
+</div>
+<div id="rules" class="section level2">
+<h2><strong>Rules</strong></h2>
+<ul>
+<li><strong>Be respectful and patient:</strong> We welcome group members
+from all backgrounds and identities, with different lived experiences
+and communication styles. This means we might not always agree with each
+other. Try to negotiate the common grounds and seek mutual understanding
+in the interaction with other members. Give other people chances to
+share opinions and take part in activities and tasks. People are diverse
+and that makes our community stronger and more knowledgeable, so try to
+keep an open mind and learn from each other.</li>
+<li><strong>Be responsible and communicate openly:</strong> The work we
+do requires team efforts and coordination. Team members might often need
+to work simultaneously or asynchronously on the same task, so that the
+team’s overall work can advance. This means that every team member needs
+to act responsibly in completing their part of the work and communicate
+openly to others their availability, willingness, expertise, experience
+and suggestions for the task and the project. We recognize all
+contributions, in whatever form they may be, transparently.</li>
+<li><strong>Be generous in sharing helpful knowledge and aim to benefit
+the community:</strong> Be generous when requested to share knowledge or
+task-related information to other team members. The Feminist Wonder Lab
+was created to learn and teach each other how to be better researchers,
+academics and educators, and lift each other up. Try to learn and guide
+others in the learning process. You should feel and act as part of a
+team of like-minded people: share helpful project-related information
+with others, and make sure you take decisions together, as a team. The
+interests of the community should be prioritised above any personal
+gains or interests. We are in this together!</li>
+<li><strong>Use preferred pronouns (e.g. she/her/hers,
+they/their/theirs, he/him/his) and preferred (nick)names to address
+people.</strong> If you’re not sure which one to use, ask the person. If
+possible, show your pronouns visibly (e.g. in your Zoom name) to make it
+easy for people to address you correctly.</li>
+<li><strong>Follow the standards of open, transparent and reproducible
+scholarship practices:</strong> The Feminist Wonder Lab is built around
+the idea of open and transparent scholarship, and stands firmly behind
+research integrity and ethics principles. We strongly advise any member
+to acquaint themselves with a reputable and reliable research integrity
+document, and we would like to particularly recommend:
+<ul>
+<li><a href="https://allea.org/code-of-conduct/#toggle-id-17" target="_blank">The
+European Code of Conduct for Research Integrity</a></li>
+<li><a href="https://www.who.int/about/ethics/code-of-conduct-for-responsible-research" target="_blank">World
+Health Organization’s Code of Conduct for responsible research</a><br />
+</li>
+<li><a href="https://cdn.who.int/media/docs/default-source/documents/ethics/code-of-conduct-for-misconduct-in-research-pamphlet-en.pdf?sfvrsn=ac5d50fc_2" target="_blank">WHO’s
+Misconduct in Research</a></li>
+<li><a href="https://ukrio.org/ukrio-resources/publications/code-of-practice-for-research" target="_blank">Code
+of Practice for Research published by the UK Research Integrity
+Office</a><br />
+</li>
+<li><a href="https://www.universitiesuk.ac.uk/topics/research-and-innovation/concordat-support-research-integrity" target="_blank">Concordat
+to Support Research Integrity</a></li>
+<li><a href="https://research-and-innovation.ec.europa.eu/strategy/strategy-2020-2024/our-digital-future/open-science_en" target="_blank">The
+EU’s Open Science Policy</a><br>
+<p style="margin-left: -40px;">
+As a further knowledge resource into open, reproducible and transparent
+scholarship, we also recommend
+<a href="https://forrt.org/syllabus/" target="_blank">FORRT’s Open and
+Reproducible Science Syllabus</a>. The standards of open, transparent
+and reproducible scholarship practices include both practising active
+behaviours of good research integrity, as well as avoiding passive acts
+of omissions of such integrity. Good research practice acts include:
+</p></li>
+<li>Honesty in proposing, conducting and reporting research.</li>
+<li>Honesty in reporting and acknowledging contributions, as well as
+granting authorship to researchers who have made significant
+intellectual, scholarly, or practical contributions to that output and
+are willing to take responsibility for the contribution.</li>
+<li>Compliance with ethical and legal obligations as required by
+statutory and regulatory authorities.</li>
+<li>Ensuring the safety, dignity, wellbeing and rights of those
+associated with the research.</li>
+<li>Reporting transparently and managing timely any conflicts of
+interest.</li>
+<li>Recognising one’s responsibility and accountability to the Feminist
+Wonder Lab community for their research conduct.<br>
+<p style="margin-left: -40px;">
+Omissions include:
+</p></li>
+<li>Falsification or fabrication of data, including intentionally or by
+mistake.</li>
+<li>Misrepresentation of data, including the invention of data and the
+omission from analysis and publication of inconvenient data.</li>
+<li>Failure to follow good practice for the proper preservation,
+management and sharing of primary data, artefacts and material.</li>
+<li>Unacknowledged appropriation of the work of others, including
+plagiarism, the abuse of confidentiality with respect to unpublished
+materials, or misappropriation of results, physical materials or other
+resources.</li>
+<li>Misrepresentation of involvement in a research project; for example,
+the failure to include legitimate author(s) on outputs, or granting
+authorship where none is warranted, or of credentials, including
+qualifications, experience, and publication history.</li>
+<li>Failure to declare conflicts of interest.</li>
+<li>Failure to follow accepted procedures, legal, professional or
+ethical requirements, or to exercise due care in carrying out
+responsibilities for avoiding unreasonable harm or risk to humans, other
+vertebrates, cephalopods or the environment.</li>
+<li>Failure to follow existing guidance on good practice in research,
+including proper handling of privileged, private or confidential
+information collected on individuals during the research.</li>
+<li>Improper conduct in peer review of research proposals, results or
+manuscripts submitted for publication.</li>
+<li>Improper dealing with allegations of misconduct: failing to address
+possible infringements, or to adhere to agreed procedures in the
+investigation of alleged research misconduct accepted as a condition of
+funding.</li>
+</ul></li>
+</ul>
+<p>Failure to comply with these rules may give rise to an allegation of
+Code of Conduct Violation which may be a ground for, if serious, for
+dismissal from our Feminist Wonder Lab community and projects.</p>
+<ul>
+<li><strong>Acquaint yourself well with the list of unacceptable
+behaviours.</strong> Should you happen to witness any of the below
+behaviours, please report it following the misconduct reporting
+procedures in this document. We do not allow any of the following
+unacceptable behaviours in our Feminist Wonder Lab community:
+<ul>
+<li>Intimidating, harassing, lewd, demeaning, bullying, stalking, or
+threatening speech or actions.</li>
+<li>Unwelcome sexual attention or advances of any kind.</li>
+<li>Unwelcome physical contact.</li>
+<li>Any real or implied threat of physical harm.</li>
+<li>Sustained disruption of speakers or events (verbally or
+physically).</li>
+<li>Violent behaviours, threats or language directed against another
+person.</li>
+<li>Trolling, insulting or derogatory comments, and personal attacks or
+insults.</li>
+<li>Discriminatory jokes and language.</li>
+<li>The use of ableist, sexualized, sexist, racist, xenophobic or
+violent language or imagery.</li>
+<li>Posting (or threatening to post) other people’s personally
+identifying information (“doxing”).</li>
+<li>Repeated harassment of others. In general, if someone asks you to
+stop, then stop.</li>
+<li>Retaliation against an individual for reporting harassment or other
+unacceptable behaviours or for participating in an investigation of such
+a claim.</li>
+<li>Passing judgement about personal choices or forcing disclosure of
+one’s own experiences and identifications.</li>
+<li>Other conduct which could reasonably be considered inappropriate in
+a professional setting.</li>
+<li>Advocating for, or encouraging, any of the above behaviours.  </li>
+</ul></li>
+</ul>
+</div>
+<div id="enforcement-responsibilities" class="section level2">
+<h2><strong>Enforcement Responsibilities</strong></h2>
+<p>Community leaders are responsible for clarifying and enforcing our
+standards of acceptable behaviour and will take appropriate and fair
+corrective action in response to any behaviour that they deem
+inappropriate, threatening, offensive, or harmful. You can find the
+current community leaders on our <a href="index.html">Who we are</a>
+page.  </p>
+</div>
+<div id="scope" class="section level2">
+<h2><strong>Scope</strong></h2>
+<p>This Code of Conduct applies within all community spaces, physical
+and virtual, and also applies when an individual is officially
+representing the community in public spaces. Examples of representing
+our community include using an official email address, posting via an
+official social media account, or acting as an appointed representative
+at an online or offline event.</p>
+<ul>
+<li><strong>Consequences of Unacceptable Behaviours:</strong>
+<ul>
+<li>Participants who are asked to stop any unacceptable behaviour are
+expected to comply immediately.</li>
+<li>Potential consequences for violations of this code of conduct
+include, but are not limited to: warning the offender, dismissal from
+the Slack Community and Feminist Wonder Lab events, banning from future
+events, and denying or revoking the community membership.</li>
+</ul></li>
+<li><strong>Reporting:</strong>
+<ul>
+<li>If you experience or witness unacceptable behaviour, or have any
+other concerns, please report it as indicated below. All complaints will
+be reviewed and investigated promptly and fairly. All community leaders
+are obligated to respect the privacy and security of the reporter of any
+incident. All reports will be handled with discretion.</li>
+<li>You can report a suspected code of conduct violation to any member
+of Feminist Wonder Lab’s community, including your names (real,
+nicknames, or pseudonyms) and those of any individuals involved. If
+there are additional witnesses, please include them as well. Please
+include your account of what occurred, and if you believe the incident
+is ongoing. If there is a publicly available record (e.g. a mailing list
+archive), please include a link, as well as any additional information
+that may be helpful for the case.</li>
+<li>After filing a report, a community member that is not involved in
+your case personally and does not have any conflict of interest will
+contact you, review the incident, follow up with any additional
+questions, and make a decision as to how to respond. We will respect
+confidentiality requests for the purpose of protecting victims of abuse.
+ </li>
+</ul></li>
+</ul>
+</div>
+<div id="attribution-and-acknowledgements" class="section level2">
+<h2><strong>Attribution and Acknowledgements</strong></h2>
+<p>This document is created based on
+<a href="https://forrt.org/coc/" target="_blank">FORRT’s Code of
+Conduct</a> document, the
+<a href="https://openlifesci.org/code-of-conduct" target="_blank">Open
+Life Science Community’s Code of Conduct</a>, and Aurora &amp; Gardiner
+(2019).  </p>
+</div>
+<div id="references" class="section level2">
+<h2><strong>References</strong></h2>
+</div>
+</div>
+<div style="text-indent: -40px; padding-left: 40px;">
+<p>Aurora, V., &amp; Gardiner, M. (2018). How to Respond to Code of
+Conduct Reports. <em>A practical step-by-step guide to handling code of
+conduct issues. Frame Shift Consulting.</em></p>
+</div>
+<p> </p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

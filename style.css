@@ -1,0 +1,22 @@
+a:link {;
+  color: #6e41be;
+  background-color: transparent;
+}
+
+a:visited {
+         color: #6329d6;
+         background-color: transparent;
+         text-decoration: none;
+}
+a:active {
+         color: #3864c7;
+         background-color: transparent;
+  
+}
+
+body {
+  font-size: 2em;
+  font-family: "Arial";
+  color: black;
+  background-color: #c2a2d8;
+}

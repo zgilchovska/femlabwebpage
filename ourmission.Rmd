@@ -1,0 +1,123 @@
+<div align="center">
+# **Our mission**
+</div>
+&nbsp;
+
+<div align="justify">
+Our mission is to promote equity and justice for all people in the academy. The academy privileges particular identities based on gender, race, class and ability, to name a few. We see that there is a long way to go in improving the research, teaching, and working conditions for systemically underprivileged groups  in academic institutions. We believe that changes are on the way and are excited to be part of these changes. Our work currently revolves around academic publications and conference presentations, but we are looking for diverse strategies to expand into teaching, consulting, and more practice-oriented activities. This journey begins with ourselves, and thus  one of the main missions of this group has been to learn from each other’s diverse views and experiences, and become better academics and feminists. 
+</div>
+&nbsp;
+
+&nbsp;
+
+<div align="center">
+# **Feminist Wonder Lab Code of Conduct**
+</div>
+&nbsp;
+
+<div align="justify">
+## **Diversity Statement**
+
+We are a voluntary-based international educational and research community that aims to create, develop and foster feminist practices in science. We are open, inclusive and diverse, and we function and abide by the principle of open, reproducible and transparent scholarship. We welcome new members from any background, as long as they support our principles, but we particularly strive to amplify underrepresented voices in science and research. 
+&nbsp;
+
+## **Pledge and Aims of This Document**
+This code of conduct outlines the founding principles of the Feminist Wonder Lab. It is established to serve as a behaviour and attitude guideline, applicable throughout each and every of Feminist Wonder Lab’s projects and interactions, thus all members should abide by it. Every member should be aware of the rules and principles in this code of conduct, in order to be able to follow them.
+&nbsp;
+
+## **Rules**
+  * **Be respectful and patient:** We welcome group members from all backgrounds and identities, with different lived experiences and communication styles. This means we might not always agree with each other. Try to negotiate the common grounds and seek mutual understanding in the interaction with other members. Give other people chances to share opinions and take part in activities and tasks. People are diverse and that makes our community stronger and more knowledgeable, so try to keep an open mind and learn from each other. 
+  * **Be responsible and communicate openly:** The work we do requires team efforts and coordination. Team members might often need to work simultaneously or asynchronously on the same task, so that the team’s overall work can advance. This means that every team member needs to act responsibly in completing their part of the work and communicate openly to others their availability, willingness, expertise, experience and suggestions for the task and the project. We recognize all contributions, in whatever form they may be, transparently.
+  * **Be generous in sharing helpful knowledge and aim to benefit the community:** Be generous when requested to share knowledge or task-related information to other team members. The Feminist Wonder Lab was created to learn and teach each other how to be better researchers, academics and educators, and lift each other up. Try to learn and guide others in the learning process. You should feel and act as part of a team of like-minded people: share helpful project-related information with others, and make sure you take decisions together, as a team. The interests of the community should be prioritised above any personal gains or interests. We are in this together!
+  * **Use preferred pronouns (e.g. she/her/hers, they/their/theirs, he/him/his) and preferred (nick)names to address people.** If you’re not sure which one to use, ask the person. If possible, show your pronouns visibly (e.g. in your Zoom name) to make it easy for people to address you correctly.
+  * **Follow the standards of open, transparent and reproducible scholarship practices:** The Feminist Wonder Lab is built around the idea of open and transparent scholarship, and stands firmly behind research integrity and ethics principles. We strongly advise any member to acquaint themselves with a reputable and reliable research integrity document, and we would like to particularly recommend: 
+    + <a href="https://allea.org/code-of-conduct/#toggle-id-17" target="_blank">The European Code of Conduct for Research Integrity</a> 
+    + <a href="https://www.who.int/about/ethics/code-of-conduct-for-responsible-research" target="_blank">World Health Organization’s Code of Conduct for responsible research</a>  
+    + <a href="https://cdn.who.int/media/docs/default-source/documents/ethics/code-of-conduct-for-misconduct-in-research-pamphlet-en.pdf?sfvrsn=ac5d50fc_2" target="_blank">WHO’s Misconduct in Research</a> 
+    + <a href="https://ukrio.org/ukrio-resources/publications/code-of-practice-for-research" target="_blank">Code of Practice for Research published by the UK Research Integrity Office</a>  
+    + <a href="https://www.universitiesuk.ac.uk/topics/research-and-innovation/concordat-support-research-integrity" target="_blank">Concordat to Support Research Integrity</a> 
+    + <a href="https://research-and-innovation.ec.europa.eu/strategy/strategy-2020-2024/our-digital-future/open-science_en" target="_blank">The EU's Open Science Policy</a><br><p style="margin-left: -40px;">As a further knowledge resource into open, reproducible and transparent scholarship, we also recommend <a href="https://forrt.org/syllabus/" target="_blank">FORRT's Open and Reproducible Science Syllabus</a>. The standards of open, transparent and reproducible scholarship practices include both practising active behaviours of good research integrity, as well as avoiding passive acts of omissions of such integrity. Good research practice acts include:</p>
+    + Honesty in proposing, conducting and reporting research.
+    + Honesty in reporting and acknowledging contributions, as well as granting authorship to researchers who have made significant intellectual, scholarly, or practical contributions to that output and are willing to take responsibility for the contribution.
+    + Compliance with ethical and legal obligations as required by statutory and regulatory authorities.
+    + Ensuring the safety, dignity, wellbeing and rights of those associated with the research.
+    + Reporting transparently and managing timely any conflicts of interest.
+    + Recognising one’s responsibility and accountability to the Feminist Wonder Lab community for their research conduct.<br><p style="margin-left: -40px;">Omissions include:</p>
+    + Falsification or fabrication of data, including intentionally or by mistake.
+    + Misrepresentation of data, including the invention of data and the omission from analysis and publication of inconvenient data.
+    + Failure to follow good practice for the proper preservation, management and sharing of primary data, artefacts and material.
+    + Unacknowledged appropriation of the work of others, including plagiarism, the abuse of confidentiality with respect to unpublished materials, or misappropriation of results, physical materials or other resources.
+    + Misrepresentation of involvement in a research project; for example, the failure to include legitimate author(s) on outputs, or granting authorship where none is warranted, or of credentials, including qualifications, experience, and publication history.
+    + Failure to declare conflicts of interest.
+    + Failure to follow accepted procedures, legal, professional or ethical requirements, or to exercise due care in carrying out responsibilities for avoiding unreasonable harm or risk to humans, other vertebrates, cephalopods or the environment.
+    + Failure to follow existing guidance on good practice in research, including proper handling of privileged, private or confidential information collected on individuals during the research.
+    + Improper conduct in peer review of research proposals, results or manuscripts submitted for publication.
+    + Improper dealing with allegations of misconduct: failing to address possible infringements, or to adhere to agreed procedures in the investigation of alleged research misconduct accepted as a condition of funding.
+
+Failure to comply with these rules may give rise to an allegation of Code of Conduct Violation which may be a ground for, if serious, for dismissal from our Feminist Wonder Lab community and projects.
+
+  * **Acquaint yourself well with the list of unacceptable behaviours.** Should you happen to witness any of the below behaviours, please report it following the misconduct reporting procedures in this document. We do not allow any of the following unacceptable behaviours in our Feminist Wonder Lab community:
+    + Intimidating, harassing, lewd, demeaning, bullying, stalking, or threatening speech or actions.
+    + Unwelcome sexual attention or advances of any kind.
+    + Unwelcome physical contact.
+    + Any real or implied threat of physical harm.
+    + Sustained disruption of speakers or events (verbally or physically).
+    + Violent behaviours, threats or language directed against another person.
+    + Trolling, insulting or derogatory comments, and personal attacks or insults.
+    + Discriminatory jokes and language.
+    + The use of ableist, sexualized, sexist, racist, xenophobic or violent language or imagery.
+    + Posting (or threatening to post) other people’s personally identifying information (“doxing”).
+    + Repeated harassment of others. In general, if someone asks you to stop, then stop.
+    + Retaliation against an individual for reporting harassment or other unacceptable behaviours or for participating in an investigation of such a claim.
+    + Passing judgement about personal choices or forcing disclosure of one’s own experiences and identifications.
+    + Other conduct which could reasonably be considered inappropriate in a professional setting.
+    + Advocating for, or encouraging, any of the above behaviours.
+&nbsp;
+
+## **Enforcement Responsibilities**
+Community leaders are responsible for clarifying and enforcing our standards of acceptable behaviour and will take appropriate and fair corrective action in response to any behaviour that they deem inappropriate, threatening, offensive, or harmful. You can find the current community leaders on our [Who we are](index.html) page.
+&nbsp;
+
+## **Scope**
+This Code of Conduct applies within all community spaces, physical and virtual, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official email address, posting via an official social media account, or acting as an appointed representative at an online or offline event.
+
+  * **Consequences of Unacceptable Behaviours:**
+    + Participants who are asked to stop any unacceptable behaviour are expected to comply immediately.
+    + Potential consequences for violations of this code of conduct include, but are not limited to: warning the offender, dismissal from the Slack Community and Feminist Wonder Lab events, banning from future events, and denying or revoking the community membership.
+  * **Reporting:**
+    + If you experience or witness unacceptable behaviour, or have any other concerns, please report it as indicated below. All complaints will be reviewed and investigated promptly and fairly. All community leaders are obligated to respect the privacy and security of the reporter of any incident. All reports will be handled with discretion.
+    + You can report a suspected code of conduct violation to any member of Feminist Wonder Lab’s community, including your names (real, nicknames, or pseudonyms) and those of any individuals involved. If there are additional witnesses, please include them as well. Please include your account of what occurred, and if you believe the incident is ongoing. If there is a publicly available record (e.g. a mailing list archive), please include a link, as well as any additional information that may be helpful for the case.
+    + After filing a report, a community member that is not involved in your case personally and does not have any conflict of interest will contact you, review the incident, follow up with any additional questions, and make a decision as to how to respond. We will respect confidentiality requests for the purpose of protecting victims of abuse.
+&nbsp;
+
+## **Attribution and Acknowledgements**
+This document is created based on <a href="https://forrt.org/coc/" target="_blank">FORRT’s Code of Conduct</a> document, the <a href="https://openlifesci.org/code-of-conduct" target="_blank">Open Life Science Community’s Code of Conduct</a>, and Aurora & Gardiner (2019). 
+&nbsp;
+
+## **References**
+</div>
+<div style="text-indent: -40px; padding-left: 40px;">
+Aurora, V., & Gardiner, M. (2018). How to Respond to Code of Conduct Reports. _A practical step-by-step guide to handling code of conduct issues. Frame Shift Consulting._
+</div>
+&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
