@@ -18,7 +18,7 @@ ssauve [at] lincoln [dot] ac [dot] uk
 </div>
 
 <div align="center">
-<img src="C:\Users\44793\Documents\R\femlabwebpage\sarahsauve.png"  width="30%" height="30%"></div>
+<img src="C:\Users\44793\Documents\R\feministwonderlab\sarahsauve.png"  width="30%" height="30%"></div>
 
 <div align="justify">
 I call myself a feminist music scientist because I’m interested in how the brain processes music and how we go about doing science, with goals of equity and justice. Outside of the academy, I sing in the Lincoln Choral Society, am involved in activist organizations (Extinction Rebellion, Stand up to racism), am learning to sew clothes and run to dissolve the stresses of life.
@@ -33,7 +33,7 @@ helena [dot] hartmann [at] uk-essen [dot] de
 </div>
 
 <div align="center">
-<img src="C:\Users\44793\Documents\R\femlabwebpage\helenahartmann.jpg"  width="50%" height="50%"></div>
+<img src="C:\Users\44793\Documents\R\feministwonderlab\helenahartmann.jpg"  width="50%" height="50%"></div>
 
 <div align="justify">
 I am interested in factors that influence how we perceive pain in ourselves and in other people. I also conduct research on how our positive and negative expectations affect the success of medical treatments and what happens in the brain during these processes. My approach to science strongly aligns with open scholarship principles. Next to my work as a researcher, I enthusiastically engage in and teach science communication. My non-academic passions are writing short stories for my project <a href="https://scienceandfiction.net/" target="_blank">Science & Fiction</a>, yoga, sorting books by color, and bread baking.
@@ -50,7 +50,7 @@ You can follow Vasiliki on <a href="https://twitter.com/V_Meletaki" target="_bla
 </div>
 
 <div align="center">
-<img src="C:\Users\44793\Documents\R\femlabwebpage\vasilikimeletaki.jpg"  width="45%" height="45%"></div>
+<img src="C:\Users\44793\Documents\R\feministwonderlab\vasilikimeletaki.jpg"  width="45%" height="45%"></div>
 
 <div align="justify">
 I am interested in how art and design can be used to promote wellness and facilitate emotion regulation in the general and clinical population. My research interests include among others the influence of expertise and psychophysiological characteristics in aesthetic and emotional experiences. Outside of the lab, I love contemporary dance, traveling, baking, gardening, playing with my dog, or buying more books and plants.
@@ -66,7 +66,7 @@ You can follow Nadia on <a href="https://x.com/NSCorralFrias" target="_blank">X<
 </div>
 
 <div align="center">
-<img src="C:\Users\44793\Documents\R\femlabwebpage\nadiasaraicorralfrias.jpg"  width="60%" height="60%"></div>
+<img src="C:\Users\44793\Documents\R\feministwonderlab\nadiasaraicorralfrias.jpg"  width="60%" height="60%"></div>
 
 <div align="justify">
 I am interested in the biopsychosocial risk and protective factors of stress-related psychopathology. I am a proponent of increasing diversity in psychological and brain sciences and pride myself in my outreach activities. Outside the lab I love anything food related (from cooking to eating), watching and playing sports (especially football) and music (concerts and dancing). 
@@ -80,7 +80,7 @@ I am interested in the biopsychosocial risk and protective factors of stress-rel
 </div>
 
 <div align="center">
-<img src="C:\Users\44793\Documents\R\femlabwebpage\kohinoordarda.png"  width="30%" height="30%"></div>
+<img src="C:\Users\44793\Documents\R\feministwonderlab\kohinoordarda.png"  width="30%" height="30%"></div>
 
 <div align="justify">
 I am interested in the cognitive and neural mechanisms that underlie our interactions in the social world and our engagement with art. As an Indian classical dancer, I like to integrate my background in the performing arts and my interest in neuroscience in both my research and choreographic endeavours. Outside of the lab, I enjoy social interactions with fictional characters in novels, underwater aesthetic experiences when scuba diving, and finding the next triathlon I can sign up to!
@@ -95,7 +95,7 @@ You can follow Flavio on <a href="https://twitter.com/Flavio_Azevedo_" target="_
 </div>
 
 <div align="center">
-<img src="C:\Users\44793\Documents\R\femlabwebpage\flavioazevedo.png"  width="30%" height="30%"></div>
+<img src="C:\Users\44793\Documents\R\feministwonderlab\flavioazevedo.png"  width="30%" height="30%"></div>
 
 <div align="justify">
 Flavio Azevedo is a pioneer in developing tools and practices in Open Science and an advocate for a more diverse, equitable, and inclusive Open Science movement. Flavio is a recognized international leader in Open Science and has received prestigious awards for Open Science, including the UKRN Dorothy Bishop Prize, Hidden-REF, JISC Community Champion, and was a finalist at the Einstein Foundation Early-career Research Award on research quality. In 2018, Flavio co-founded <a href="https://forrt.org/" target="_blank">FORRT</a> —an interdisciplinary, international community of 1000+ scholars at all career stages. FORRT integrates Open Science principles into higher education to advance research transparency, reproducibility, rigor, and ethics through pedagogical reform and metascientific research. 
@@ -111,7 +111,7 @@ You can find me on <a href="https://twitter.com/ZlatiIlchovska" target="_blank">
 </div>
 
 <div align="center">
-<img src="C:\Users\44793\Documents\R\femlabwebpage\zlatomiragilchovska.png"  width="50%" height="50%"></div>
+<img src="C:\Users\44793\Documents\R\feministwonderlab\zlatomiragilchovska.png"  width="50%" height="50%"></div>
 
 <div align="justify">
 I investigate the functional, structural and neurochemical markers of frontotemporal dementia. I’m a psychologist and neuroscientist, and my research interests are bi- and multilingualism, cognition and aging, both healthy and in the case of dementia. My passion for Open Scholarship stems from my own educational struggles to access knowledge and I’d like to provide a better start for my students. In my free time I like learning languages, doing aerial arts and singing flamenco (or anything else) to my many plants. 
@@ -125,7 +125,7 @@ You can find me on <a href="https://twitter.com/sci_gab" target="_blank">X</a> o
 </div>
 
 <div align="center">
-<img src="C:\Users\44793\Documents\R\femlabwebpage\gabrielahofer.png"  width="55%" height="55%"></div>
+<img src="C:\Users\44793\Documents\R\feministwonderlab\gabrielahofer.png"  width="55%" height="55%"></div>
 
 <div align="justify">
 I'm a personality psychologist and postdoctoral researcher at University of Graz, Austria. I am interested in what people think about their own abilities and the abilities of others. Recently, I have been asking myself whether these beliefs about abilities are related to gender (e.g., Do women underestimate themselves? And are they underestimated by other people as well?). My other research interests include romantic relationships and sexuality. I am passionate about open research practices and initiatives that try to improve the working conditions of early-career researchers. When I am not in the office, I love being in nature, traveling, and going to concerts.

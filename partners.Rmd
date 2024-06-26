@@ -10,7 +10,7 @@ We are thankful to be surrounded by other supportive academic and non-academic c
 
 <div align="center">
 ## <a href="https://forrt.org/" target="_blank">**FORRT**</a>
-<img src="C:\Users\44793\Documents\R\femlabwebpage\FORRT.png"  width="30%" height="30%"></div>
+<img src="C:\Users\44793\Documents\R\feministwonderlab\FORRT.png"  width="30%" height="30%"></div>
 <div align="justify">
 In a nutshell, FORRT is a Framework for Open and Reproducible Research Training which is advancing research transparency, reproducibility, rigor, and ethics through pedagogical reform and meta-scientific research. FORRT provides a pedagogical infrastructure and open educational resources designed to support the teaching and mentoring of open and reproducible science. FORRT strives to (a) raise awareness of the pedagogical implications of open and reproducible science and its associated challenges (i.e., curricular reform, epistemological uncertainty, methods of education); (b) respond to calls to consider open scholarship as inclusive scholarship; (c) advocate for the opening and formal recognition of teaching and mentoring materials to facilitate access, discovery, and learning to those who otherwise would be educationally disenfranchised.
 &nbsp;
@@ -24,7 +24,7 @@ In a nutshell, FORRT is a Framework for Open and Reproducible Research Training 
 ## <a href="https://abrirpsy.org/" target="_blank">**ABRIR**</a>
 &nbsp;
 
-<img src="C:\Users\44793\Documents\R\femlabwebpage\ABRIR.png"  width="25%" height="25%"></div>
+<img src="C:\Users\44793\Documents\R\feministwonderlab\ABRIR.png"  width="25%" height="25%"></div>
 &nbsp;
 
 <div align="justify">
